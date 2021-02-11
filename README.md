@@ -1,5 +1,5 @@
-# CODEVS WEB FRONTEND TEAM
-![label image](https://github.com/CoDevsCommunity/codevs-web-frontend/blob/main/assets/img/logo.png)
+# CODEVS WEB TEAM
+![logo](https://github.com/CoDevsCommunity/codevs-web-frontend/blob/main/assets/img/logo.png)
 
 ![label image](https://img.shields.io/badge/status-in%20progress-yellow)
 
@@ -51,6 +51,14 @@ Mantener una estructura en el proyecto, permitirá tener una mejor comunicación
 * **JAVASCRIPT** s un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico.
 * **NORMALIZE** Normalize.css hace que los navegadores representen todos los elementos de manera más consistente y en línea con los estándares modernos. Precisamente se dirige solo a los estilos que necesitan normalizarse.
 
+## PALETA DE COLORES
+Esta es la paleta de colores únicas que se va a utilizar.
+[paleta](https://github.com/CoDevsCommunity/codevs-web-frontend/blob/main/assets/img/paleta.png)
+
+
+## DISEÑO EN FIGMA
+El diseño del sitio web está hecho en [(figma)]([diseño](https://www.figma.com/file/B36mD9IB2yGW7Opqnag9Lu/WIREFRAME), tanto su wireframe como su mockup.
+
 
 ## LICENCIA DE USO
 Este proyecto está bajo Licencia (MIT license) -  para mayor información revisar [DOCS](#)
@@ -70,8 +78,5 @@ Este proyecto está bajo Licencia (MIT license) -  para mayor información revis
 * **Backend  Develop -** ProCa-Estudio [(Github)](https://github.com/ProCa-Estudio).
 
 
-<<<<<<< HEAD
-**Team - Codevs Frontend**
-=======
-**Team - Codevs Frontend**
->>>>>>> c0a365057e15a42ce0822cf2a8217d8ea5d8119c
+**Team - Codevs Web**
+
