@@ -70,4 +70,8 @@ Este proyecto está bajo Licencia (MIT license) -  para mayor información revis
 * **Backend  Develop -** ProCa-Estudio [(Github)](https://github.com/ProCa-Estudio).
 
 
+<<<<<<< HEAD
 **Team - Codevs Frontend**
+=======
+**Team - Codevs Frontend**
+>>>>>>> c0a365057e15a42ce0822cf2a8217d8ea5d8119c
