@@ -48,16 +48,16 @@ Mantener una estructura en el proyecto, permitirá tener una mejor comunicación
 ## TECNOLOGÍAS DE DESARROLLO
 * **HTML** Siglas en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado para la elaboración de páginas web
 * **CSS** En español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.​
-* **JAVASCRIPT** s un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico.
+* **JAVASCRIPT** Es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico.
 * **NORMALIZE** Normalize.css hace que los navegadores representen todos los elementos de manera más consistente y en línea con los estándares modernos. Precisamente se dirige solo a los estilos que necesitan normalizarse.
 
 ## PALETA DE COLORES
 Esta es la paleta de colores únicas que se va a utilizar.
-[paleta](https://github.com/CoDevsCommunity/codevs-web-frontend/blob/main/assets/img/paleta.png)
+![paleta](https://github.com/CoDevsCommunity/codevs-web-frontend/blob/main/assets/img/paleta.png)
 
 
 ## DISEÑO EN FIGMA
-El diseño del sitio web está hecho en [(figma)]([diseño](https://www.figma.com/file/B36mD9IB2yGW7Opqnag9Lu/WIREFRAME), tanto su wireframe como su mockup.
+El diseño del sitio web está hecho en [(figma)](https://www.figma.com/file/B36mD9IB2yGW7Opqnag9Lu/WIREFRAME), tanto su wireframe como su mockup.
 
 
 ## LICENCIA DE USO
