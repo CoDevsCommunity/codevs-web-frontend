@@ -74,6 +74,9 @@ Este proyecto está bajo Licencia (MIT license) -  para mayor información revis
 * **Frontend Develop -** joseg-17 [(Github)](https://github.com/joseg-17).
 * **Frontend Develop -** JesusCrespo [(Github)](https://github.com/JesusCrespo2823).
 * **Frontend Develop -** DarkeDevv [(Github)](https://github.com/DarkDevv981).
+* **Frontend Develop -** Alexander G [(Github)](https://github.com/AlexanderG-Developers).
+* **Frontend Develop -** Tux [(Github)](https://github.com/Pancho-Developer).
+* **Frontend Develop -** Arturo Gamboa [(Github)](https://github.com/TheriusBlackers).
 * **Backend  Develop -** Osw16 [(Github)](https://github.com/Osw16).
 * **Backend  Develop -** ProCa-Estudio [(Github)](https://github.com/ProCa-Estudio).
 
