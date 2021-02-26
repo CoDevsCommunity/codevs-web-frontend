@@ -89,6 +89,18 @@ header p{
   padding: 10px 25px;
   text-decoration: none;
 }
+.button-info {
+  background-color: var(--orange);
+  color: var(--white);
+  border-radius: 15px;
+  padding: 10px 25px;
+  
+  text-decoration: none;
+}
+.button-info:hover {
+  
+  background-color: var(--lightblue);
+}
 .button:hover{
   background-color: var(--lightblue);
 }
@@ -100,6 +112,11 @@ header .button{
 }
 .discord:hover{
   background-color: var(--teal);
+}
+.tutorial1 img {
+  margin-left: 100px;
+  border-radius: 20px;
+  height: 150px;
 }
 
 /*section*/
