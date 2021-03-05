@@ -27,7 +27,7 @@ div a.JoinDiscord {
 
 div a.JoinDiscord:hover {
     transition: ease 300ms all ;
-    color: var(--lightblue);
+    background: var(--lightblue);
 }
 
 /* Inputs */
@@ -46,7 +46,7 @@ div.LoginUser .Separator {
 div.LoginUser input {
     border: 0;
     background: var(--white);
-    width: 30rem;
+    width: 40rem;
     /* 300px */
 }
 
@@ -64,32 +64,17 @@ div a.PassForgot {
 }
 
 .ContentPass {
-    width: 30rem; float: right;
+  width:40rem;  float: right;
 }
 
 /* Buttons (join and clear) */
 div.Buttons {
     display: flex;
-    width: 100%;
-    justify-content: center;
+    width: 60%;
+    justify-content: space-around;
+    margin:auto;
     margin-top: 60px;
     margin-bottom: 540px;
-}
-
-div .Join, div .Clear {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--white);
-    background: var(--lightblue);
-    margin:20px;
-    border-radius: 20px;
-    padding: 5px;
-    height: 2em;    
-}
-
-div .Join:hover, div .Clear:hover {
-    background: var(--orange);
 }
 
 /* MediaScreens */
