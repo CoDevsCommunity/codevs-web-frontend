@@ -91,11 +91,14 @@ header{
   color: var(--white);
   border-radius: 15px;
   padding: 10px 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-decoration: none;
   margin-bottom: 10px;
 }
 
-.button-info5678:hover{
+.button-info:hover{
   background-color: var(--lightblue);
 }
 
@@ -119,6 +122,9 @@ border-radius: 10px;
 .flex-direction {
  text-align: start;
 }
+.texto-tutorial {
+  margin-left: 20px;
+}
 .tutorial1 {
     width: 100%;
     margin-top: 50px;
@@ -132,7 +138,6 @@ border-radius: 10px;
 }
 .pagination a {
   color: black;
-  margin-top: ;
   float: left;
   padding: 8px 16px;
   text-decoration: none;
@@ -294,6 +299,9 @@ footer{
   }
   .menu {
     float: none;
+  }
+  .pagination {
+
   }
   .column {
     width: 100%;
