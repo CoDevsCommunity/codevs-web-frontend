@@ -35,7 +35,39 @@
 }
 /*SELECT*/
 
+.caja {
+   margin: 10px 0px 0px 14px;
+   border:1px solid #d9d9d9;
+   height:36px;
+   overflow: hidden;
+   width: 230px;
+   position:relative;
 
+	 border-radius: 5px;
+}
+select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 36px;
+   padding: 5px;
+   width: 250px;
+}
+select:focus{ outline: none;}
+
+.caja::after{
+	content:"\025be";
+	display:table-cell;
+	padding-top:7px;
+	text-align:center;
+	width:40px;
+	height:36px;
+	background-color:#d9d9d9;
+	position:absolute;
+	top:0;
+	right:0px;
+	pointer-events: none;
+}
 .categorias{
 display: flex;
 
@@ -44,22 +76,6 @@ display: flex;
 }
 
 
-#btn{
-	cursor: pointer;
-  display: inline-block;
-  border: 0px;
-  font-weight: bold;
-  padding: 10px 20px;
-  background: var(--orange);
-  color: var(--white);
-  font-size: 15px;
-  border-radius: 10px 10px 0px 0px;
-	width: 150px;
-	text-align: center;
-	margin-left: 0px;
-	height: 20px;
-
-}
 /*Boton "Todo" */
 #todo{
   margin-left: 120px;
