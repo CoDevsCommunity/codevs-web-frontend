@@ -1,3 +1,8 @@
+/**
+ * this function clean the inputs fields if the user press "clean" button
+ * @param {foo var} e - Used to prevent the default action
+ */
+
     let ButtonClear = document.querySelector('#Clear'),
     ButtonClear.addEventListener('click',clear)
 
