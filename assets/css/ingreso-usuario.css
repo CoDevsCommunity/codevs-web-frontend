@@ -43,7 +43,7 @@ div.LoginUser .Separator {
     justify-content: space-between;
 }
 
-div.LoginUser input {
+div.LoginUser input.LoginFields {
     border: 0;
     background: var(--white);
     width: 40rem;
@@ -77,6 +77,10 @@ div.Buttons {
     margin-bottom: 140px;
 }
 
+[type="button"] {
+    margin:16px;
+    border:none;
+}
 /* MediaScreens */
 @media screen and (max-width: 500px) {
     .LoginUser {
