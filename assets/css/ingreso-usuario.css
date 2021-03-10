@@ -82,13 +82,13 @@ div.Buttons {
     border:none;
 }
 /* MediaScreens */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .LoginUser {
         width: 29em;
     }
     
-    div.LoginUser input {
-        width: 18em;
+    div.LoginUser input.LoginFields {
+        width: 18em !important;
     }
 
     .ContentPass {
