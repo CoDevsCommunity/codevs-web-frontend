@@ -1,0 +1,97 @@
+* {
+    text-decoration: none;
+}
+
+.LoginUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35em;
+    /* 560px */
+    margin: auto;
+}
+/* Discord message */
+div a.JoinDiscord {
+    margin: 15px 0 0 0;
+    display: flex;
+    height: 8em;
+    /* 128px */
+    width: inherit;
+    align-items: center;
+    justify-content: center;
+    background: var(--orange);
+    color: var(--white);
+    transition: ease 300ms all ;
+}
+
+div a.JoinDiscord:hover {
+    transition: ease 300ms all ;
+    background: var(--lightblue);
+}
+
+/* Inputs */
+
+form {
+    width: inherit;
+}
+
+div.LoginUser .Separator { 
+    width: inherit;
+    margin: 15px 0 0 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+div.LoginUser input.LoginFields {
+    border: 0;
+    background: var(--white);
+    width: 40rem;
+    /* 300px */
+}
+
+div.LoginUser label {
+    display: inline-block;
+    margin: 16px 0;
+}
+/* Link for PassForgot */
+div a.PassForgot {
+    font-size: 12px;
+    color: var(--lightblue);
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+}
+
+.ContentPass {
+  width:40rem;  float: right;
+}
+
+/* Buttons (join and clear) */
+div.Buttons {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin:auto;
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+
+[type="button"] {
+    margin:16px;
+    border:none;
+}
+/* MediaScreens */
+@media screen and (max-width: 600px) {
+    .LoginUser {
+        width: 29em;
+    }
+    
+    div.LoginUser input.LoginFields {
+        width: 18em !important;
+    }
+
+    .ContentPass {
+        width: 18em;
+    }
+}
