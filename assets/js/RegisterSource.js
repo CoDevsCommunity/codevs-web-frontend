@@ -1,3 +1,6 @@
+/**
+ *@function {VerifyPass} display message error if the pass doesn't coincide
+ */
 let PassRept = document.getElementById('password-user-repeat')
     
 if(window.screen.width < 600){
