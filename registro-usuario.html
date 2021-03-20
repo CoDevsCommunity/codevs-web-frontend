@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Codevs Web | más que una comunidad.</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!--seo-->
+	<meta property="og:title" content="Codevs">
+    <meta name="author" content="Codevs">
+    <meta property="og:locale" content="es_ES">
+    <meta name="description" content="Más que una comunidad">
+    <meta property="og:description" content="Más que una comunidad">
+    <link rel="canonical" href="https://github.com/CoDevsCommunity">
+    <meta property="og:url" content="https://github.com/CoDevsCommunity">
+    <meta property="og:site_name" content="Codevs">
+    <meta property="og:image" content="https://raw.githubusercontent.com/CoDevsCommunity/codevs-web-frontend/main/assets/img/logo.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="codevs">
+    <meta name="twitter:creator" content="codevs">
+    <meta name="twitter:title" content="Codevs">
+    <meta name="twitter:description" content="Codeves es mas que una comunidad de desarrolladores.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/CoDevsCommunity/codevs-web-frontend/main/assets/img/logo.png">
+    <meta name="twitter:image:alt" content="codevs">
+    <link href="https://raw.githubusercontent.com/CoDevsCommunity/codevs-web-frontend/main/assets/img/logo.png" rel="shortcut icon" type="image/png">
+	<!--end seo-->
+	<!--font awesome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--google fonts-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet"> 
+	<!--styles-->
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/app.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/ingreso-usuario.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/registro-usuario.css">
+	<!--scripts-->
+	<script type="text/javascript" src="assets/js/app.js"></script>
+
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<img src="assets/img/logo.png" alt="logo">
+			<span>Codevs Community</span>
+		</div>
+		<div class="menu" id="myTopnav">
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+			<a href="#">Contacto</a>
+			<a href="#">Proyectos</a>
+			<a href="#">Recursos</a>
+			<a href="#">Tutoriales</a>
+			<a href="#">Home</a>
+		</div>
+	</nav>	
+	<header>
+		<h1>Codevs, más que una comunidad</h1>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p><p> Officia dicta sit hic, earum assumenda omnis esse amet.</p>
+		<br><br><br><br>
+		<a href="#" class="button discord">DISCORD</a>
+		<a href="#" class="button">APRENDE</a>
+	</header>
+	<section>
+		<article class="welcome">
+			<h3>Bienvenid@s a Codevs Community</h3>
+		</article>
+		
+	</section>
+	<section>
+		<article>
+			<div class="LoginUser">
+				<!-- Join Discord message -->
+				<a href="https://discord.gg/GrHjuwd" class="JoinDiscord"> Unete a nuestro servidor Discord!!</a> 
+				<!-- form user(username, name, lastname,email and password) -->
+				<form name="UserForm" id="UserForm">
+					<!-- Two separators,labels and inputs -->
+          <div class="Separator">
+            <label for="TagNameUser">Nombre de usuario</label>
+            <input id="TagNameUser" type="text" name="UserName" class="LoginFields" placeholder="Ingresa tu nombre de usuario" autofocus required pattern=[a-zA-Z0-9]{3,10} title="minimo 3 carácteres"></div>
+          <div class="Separator">
+            <label for="NameUser">Nombre</label>
+            <input id="NameUser" type="text" name="Name" class="LoginFields" placeholder="Ingresa tu nombre" required pattern="[a-zA-Z]{2,10}"></div>
+          <div class="Separator">
+            <label for="LastName">Apellido</label>
+            <input id="LastName" class="LoginFields" type="text" name="LastName" placeholder="Ingresa tu apellido" required pattern="[a-zA-Z]{2,10}">
+          </div>
+   				<div class="Separator">
+           <label for="email-user">Email</label>
+					 <input type="email" class="LoginFields" name="Email" id="email-user" placeholder="Ingresa tu email (ejemplo@correo.com)" required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Introduzca una dirección de correo válida, con letras mayúsculas,minúsculas y números con su respectivo @ y el dominio del correo"></div>
+					<div class="Separator">
+           <label for="password-user">Contraseña</label>
+					 <input type="password"  class="LoginFields" name="Password" id="password-user" placeholder="Ingresa tu contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Requiere mínimo, 8 carácteres, un número, una letra minúscula y otra mayúscula"></div>
+          <div class="Separator">
+            <label for="password-user-repeat" id="labelPassR">Contraseña - Repetir</label>
+            <input id="password-user-repeat" class="LoginFields" type="password" name="PasswordRept" placeholder="Debe coincidir con la contraseña que has ingresado" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+          </div>
+          <!--Alert messages-->
+          <div class="hidden alert alert-err" id="error">Las contraseñas parecen no coincidir!</div>
+          <div class="hidden alert alert-success" id="succes">Registro exitoso!</div>
+					<!-- Two buttons join and clear -->
+          <div class="Buttons" id="Buttons"><input type="submit" class="button" id="Join" value="Registrar"><input type="button" class="button" id="Clear" value="Limpiar" title="debe coincidir con la contraseña que has ingresado"></div>
+					<!-- End form -->
+          
+				</form>
+			</div>
+		</article>
+	</section>
+	<footer>
+		<p>Codevs Community 2021</p>
+		<button  onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	</footer>
+  <script type="text/javascript" src="assets/js/clearButton.js"></script>
+  <script type="text/javascript" src="assets/js/RegisterSource.js"></script>
+	<script type="text/javascript">
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+		}
+	</script>
+	<script src="assets/js/clearButton.js"></script>
+</body>
+</html>
