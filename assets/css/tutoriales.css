@@ -169,10 +169,18 @@ li {
     justify-content: center;
     flex-direction: column;
     margin: auto;
+    height: 100px;
 
   }
+  .categorias select {
+    margin-left: 20px;
+  }
+  .caja {
+
+    margin: 10px auto;
+  }
   #todo {
-    margin-left: 15px;
+   margin-left: 90px;
   }
   
   .pagination {
@@ -192,6 +200,8 @@ li {
 
   .caja select {
     display: block;
+    padding: 0px;
+
   }
 } 
 @media only screen and (max-width: 600px) {
