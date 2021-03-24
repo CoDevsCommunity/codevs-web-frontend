@@ -7,6 +7,8 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <!--seo-->
         <meta property="og:title" content="Codevs">
+        
+
         <meta name="author" content="Codevs">
         <meta property="og:locale" content="es_ES">
         <meta name="description" content="Más que una comunidad">
@@ -68,93 +70,82 @@
             <a href="#" class="button">APRENDE</a>
             </div>
         </header>
-    
-   <div class="select-container">
-        <select name="todo" id="todo">
-            <option value="2">Todo</option>
-        </select>
-            <select name="categorias">
-                <option value="1">Categoria 1</option>
-             </select>
-   </div>
-      
+	    <!--CONTENEDOR DE CATEGORIAS-->
+	   
+   <div class="categorias">
+    <div  class="btn" id="todo">  Todo </div>
+        <div class="caja"  >
+          <select >
+            <option>La primera opción</option>
+            <option>La segunda opción</option>
+            <option>La tercera opción</option>
+          </select>
+        </div>
+</div>
+
         <!-- TUTORIALES -->
-        <div class="flex-direction">
-          <div class="tutorial1">
-            <ul>
-                <li><img src="/assets/img/card1.png" alt="Tutorial 1"></li>
-                <li>
-                    <div class="texto-tutorial">
-                        <h4>TITLE</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, corporis.</p>
-                <a href="#" class="button-info">Más Información</a>
-                    </div>
-                </li>
-            </ul>
-            
-          </div>
-          <div class="tutorial1">
-            <ul>
-                <li><img src="/assets/img/card2.png" alt="Tutorial 2"></li>
-                <li>
-                    <div class="texto-tutorial">
-                        <h4>TITLE</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, corporis.</p>
-                <a href="#" class="button-info">Más Información</a>
-                    </div>
-                </li>
-            </ul>
-            
-          </div>  
-          <div class="tutorial1">
-            <ul>
-                <li><img src="/assets/img/card3.png" alt="Tutorial 3"></li>
-                <li>
-                    <div class="texto-tutorial">
-                        <h4>TITLE</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, corporis.</p>
-                <a href="#" class="button-info">Más Información</a>
-                    </div>
-                </li>
-            </ul>
-            
-          </div>
-          <div class="tutorial1">
-            <ul>
-                <li><img src="/assets/img/card4.png" alt="Tutorial 4"></li>
-                <li>
-                    <div class="texto-tutorial">
-                        <h4>TITLE</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, corporis.</p>
-                <a href="#" class="button-info">Más Información</a>
-                    </div>
-                </li>
-            </ul>
-            
-          </div>
-         
-        </div>
-
-
         
-
-
-        <!-- PAGINATION-->
-        <div class="pagination-margin">
-            <div class="pagination">
-                <a href="#">&laquo;</a>
-                <a href="#">1</a>
-                <a class="active" href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">5</a>
-                <a href="#">6</a>
-                <a href="#">&raquo;</a>
+        	<!--tarjeta 1-->
+          <div class="card">
+              <div class="img">
+                  <img src="assets/img/card1.png" alt="Card 1">
               </div>
+              <div class="text">
+                <h4>TITLE</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Nisi velit esse rerum accusantium alias suscipit in fugit inventore eligendi ratione?</p>
+                   <a href="#" class="button-info">Más Información</a>
+              </div>
+          </div>
+          <!--tarjeta 2-->
+            <div class="card">
+                <div class="img">
+                    <img src="assets/img/card2.png" alt="Card 2">
+                </div>
+                <div class="text">
+                    <h4>TITLE</h4>
+                    <p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Beatae est atque impedit saepe esse accusamus cupiditate aliquam reiciendis tenetur.</p>
+                    <a href="#" class="button-info">Mas información</a>
+                </div>
+            </div>
+          <!--tarjeta 3-->
+          <div class="card">
+              <div class="img">
+                  <img src="assets/img/card3.png" alt="Card 3">
+              </div>
+              <div class="text">
+                  <h4>TITLE</h4>
+                  <p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Natus aliquid veritatis maiores! Facere, dolor hic, sequi debitis eveniet quia cupiditate ex cumque corporis dolorem sint?</p>
+                  <a href="#" class="button-info">Mas información</a>
+              </div>
+          </div>
+          <!--tarjeta 4-->
+          <div class="card">
+              <div class="img">
+                  <img src="assets/img/card4.png" alt="Card 4">
+              </div>
+              <div class="text">
+                  <h4>TITLE</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio amet eos, voluptatibus suscipit minus, impedit!</p>
+                  <a href="#" class="button-info">Mas información</a>
+              </div>
+          </div>
+        
+        <!-- PAGINATION-->
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#" class="active">1</a>
+          <a  href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">&raquo;</a>
         </div>
+        <br>
+        <br>
+        <br>
           <!-- FOOTER -->
         <footer>
-           
                 <p>Codevs Community 2021</p>
                 <button  onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
             </footer>
@@ -173,6 +164,5 @@
                   }
                 }
             </script>
-       
     </body>
 </html>
