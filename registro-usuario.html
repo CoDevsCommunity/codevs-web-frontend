@@ -34,6 +34,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/app.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/ingreso-usuario.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/registro-usuario.css">
 	<!--scripts-->
 	<script type="text/javascript" src="assets/js/app.js"></script>
 
@@ -73,18 +74,36 @@
 			<div class="LoginUser">
 				<!-- Join Discord message -->
 				<a href="https://discord.gg/GrHjuwd" class="JoinDiscord"> Unete a nuestro servidor Discord!!</a> 
-				<!-- form user(email and password) -->
+				<!-- form user(username, name, lastname,email and password) -->
 				<form name="UserForm" id="UserForm">
-					<!-- Two separators,labels and inputs -->
-					<div class="Separator"><label for="email-user">Email</label>
-					<input type="email" class="LoginFields" name="UserForm" id="email-user" placeholder="Ingresa tu email (ejemplo@correo.com)" autofocus required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Introduzca una dirección de correo válida, con letras mayúsculas,minúsculas y números con su respectivo @ y el dominio del correo"></div>
-					<div class="Separator"><label for="password-user">Contraseña</label>
-					<input type="password"  class="LoginFields" name="UserForm" id="password-user" placeholder="Ingresa tu contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Requiere mínimo, 8 carácteres, un número, una letra minúscula y otra mayúscula"></div>
-					<!-- a element for pass forgot -->
-				<div class="ContentPass"><a href="#" class="PassForgot">¿Haz olvidado tu contraseña?</a></div>
+					<!--separators,labels and inputs -->
+          <div class="Separator">
+            <label for="TagNameUser">Nombre de usuario</label>
+            <input id="TagNameUser" type="text" name="UserName" class="LoginFields" placeholder="Ingresa tu nombre de usuario" autofocus required pattern=[a-zA-Z0-9]{3,10} title="minimo 3 carácteres"></div>
+          <div class="Separator">
+            <label for="NameUser">Nombre</label>
+            <input id="NameUser" type="text" name="Name" class="LoginFields" placeholder="Ingresa tu nombre" required pattern="[a-zA-Z]{2,10}"></div>
+          <div class="Separator">
+            <label for="LastName">Apellido</label>
+            <input id="LastName" class="LoginFields" type="text" name="LastName" placeholder="Ingresa tu apellido" required pattern="[a-zA-Z]{2,10}">
+          </div>
+   				<div class="Separator">
+           <label for="email-user">Email</label>
+					 <input type="email" class="LoginFields" name="Email" id="email-user" placeholder="Ingresa tu email (ejemplo@correo.com)" required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Introduzca una dirección de correo válida, con letras mayúsculas,minúsculas y números con su respectivo @ y el dominio del correo"></div>
+					<div class="Separator">
+           <label for="password-user">Contraseña</label>
+					 <input type="password"  class="LoginFields" name="Password" id="password-user" placeholder="Ingresa tu contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Requiere mínimo, 8 carácteres, un número, una letra minúscula y otra mayúscula"></div>
+          <div class="Separator">
+            <label for="password-user-repeat" id="labelPassR">Contraseña - Repetir</label>
+            <input id="password-user-repeat" class="LoginFields" type="password" name="PasswordRept" placeholder="La contraseña debe coincidir" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+          </div>
+          <!--Alert messages-->
+          <div class="hidden alert alert-err" id="error">Las contraseñas parecen no coincidir!</div>
+          <div class="hidden alert alert-success" id="succes">Registro exitoso!</div>
 					<!-- Two buttons join and clear -->
-          <div class="Buttons" id="Buttons"><input type="button" class="button" id="Join" value="Entrar"><input type="button" class="button" id="Clear" value="Limpiar"></div>
+          <div class="Buttons" id="Buttons"><input type="submit" class="button" id="Join" value="Registrar"><input type="button" class="button" id="Clear" value="Limpiar" title="debe coincidir con la contraseña que has ingresado"></div>
 					<!-- End form -->
+          
 				</form>
 			</div>
 		</article>
@@ -93,6 +112,8 @@
 		<p>Codevs Community 2021</p>
 		<button  onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	</footer>
+  <script type="text/javascript" src="assets/js/clearButton.js"></script>
+  <script type="text/javascript" src="assets/js/RegisterSource.js"></script>
 	<script type="text/javascript">
 		//Get the button
 		var mybutton = document.getElementById("myBtn");

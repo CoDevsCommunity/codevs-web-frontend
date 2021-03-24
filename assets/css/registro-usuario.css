@@ -1,0 +1,34 @@
+.Separator {
+   font-size:1.2rem; 
+}
+
+.alert {
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:12em;
+    height:3em;
+    margin:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.alert-err {
+    background:#af0000;
+}
+
+.alert-success {
+    background:#00af00;
+}
+
+.hidden {
+    display:none;
+}
+
+.displayed {
+    display:block;
+}
+
+
