@@ -64,45 +64,49 @@
 	</header>
 
 	<!--Content-Page-->
-	<div class="text">
-		<h2 class="h2">Què es Codevs Community</h2>
-		<p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-	</div>
-<div class="formulario">
+	<section>
+		<article class="text">
+			<h4>Qué es Codevs Community</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+		</article>
 
-
+	</section>
 
 <!---Form------------------>
-      <div class="form">
-				<form class='contacto'>
-		<div><label id="name">Tu Nombre:</label><input type='text'value='' placeholder='Escribe tu nombre' ></div>
-		<div><label id="email">Tu Email:</label><input type='email' value=''placeholder='Ejm: Example@gmail.com' ></div>
-		<div><label  id="affair">Asunto:</label><input type='text' value=''placeholder='Escribe tu asunto' ></div>
-		<div><label id="message">Mensaje:</label><textarea rows='10' cols='41' placeholder='Escribe tu mensaje'></textarea></div>
+	<section class="flex-container">
+		<div class="formulario">
+			<form class='contacto' action="" method="post">
+				<div class="item">
+				<label id="name">Nombre:</label><input type='text'value='' placeholder='Escribe tu nombre' >
+				</div>
 
-	 <div id="btn">
+				<div class="item">
+				<label id="email">Email:</label><input type='email' value=''placeholder=' Example@gmail.com' >
+				</div>
+
+				<div class="item">
+				<label  id="affair">Asunto:</label><input type='text' value=''placeholder='Escribe tu asunto' >
+				</div>
+
+				<div class="item">
+				<label id="message">Mensaje:</label><textarea rows='10' cols='41' placeholder='Escribe tu mensaje'></textarea>
+				</div>
+
+				<div class="item">
+				<input  id="submit"type='submit' class="button" value='Enviar'>
+		    	<input  id="reset"type="reset" class="button" value="Limpiar">
+		    	</div>
+ 			</form>
+
+     	 </div>
+
+</section>
 
 
-		<div><input  id="submit"type='submit' value='Enviar Mensaje'></div>
-    <div><input  id="reset"type="reset" value="Limpiar"></div>
-    </div>
- </form>
-      </div>
-
-</div>
-
-
- <div class="btn-discord">
- 	<a href=""><p>Unete a la comunidad en Discord</p></a>
- </div>
-
-
-
-
-
-
-
-
+ <!-- Join Discord message -->
+ 			<div class="joinDiscord">
+			<a href="https://discord.gg/GrHjuwd" class="button discord btn-discord"> Unete a la comunidad en Discord!!</a> 
+			</div>
 
 	<footer>
 		<p>Codevs Community 2021</p>
