@@ -2,18 +2,13 @@
  * this function clean the inputs fields if the user press "clean" button
  * @param {foo var} e - Used to prevent the default action
  */
-    let ButtonClear = document.querySelector('#Clear'); 
-    ButtonClear.addEventListener('click',clear)
+    let ButtonClear = document.querySelector('#clear'); 
 
-    let Inputs = document.querySelectorAll('.LoginFields'),
-    inputEmail = document.querySelector('#email-user');  
+    let form = document.getElementsByName('userForm')[0];
 
 function clear(e) {	
-	e.preventDefault();
-    for (let i = 0; i < Inputs.length; i++) {
-        const count = Inputs[i]; 
-        count.value = '';	
-    }
-	inputEmail.focus({preventScroll:true})
+	 e.preventDefault();
+     form.reset();
+	 document.querySelector('#email-user').focus({preventScroll:true});
 }
-
+    ButtonClear.addEventListener('click',clear);
