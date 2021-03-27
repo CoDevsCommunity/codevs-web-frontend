@@ -71,37 +71,37 @@
 	</section>
 	<section>
 		<article>
-			<div class="LoginUser">
-				<!-- Join Discord message -->
-				<a href="https://discord.gg/GrHjuwd" class="JoinDiscord"> Unete a nuestro servidor Discord!!</a> 
+			<div class="loginUser">
+				<!-- join Discord message -->
+				<a href="https://discord.gg/GrHjuwd" class="joinDiscord"> Unete a nuestro servidor Discord!!</a> 
 				<!-- form user(username, name, lastname,email and password) -->
-				<form name="UserForm" id="UserForm">
+				<form name="userForm" id="userForm" action="" method="POST" enctype="multipart/form-data">
 					<!--separators,labels and inputs -->
-          <div class="Separator">
-            <label for="TagNameUser">Nombre de usuario</label>
-            <input id="TagNameUser" type="text" name="UserName" class="LoginFields" placeholder="Ingresa tu nombre de usuario" autofocus required pattern=[a-zA-Z0-9]{3,10} title="minimo 3 carácteres"></div>
-          <div class="Separator">
-            <label for="NameUser">Nombre</label>
-            <input id="NameUser" type="text" name="Name" class="LoginFields" placeholder="Ingresa tu nombre" required pattern="[a-zA-Z]{2,10}"></div>
-          <div class="Separator">
-            <label for="LastName">Apellido</label>
-            <input id="LastName" class="LoginFields" type="text" name="LastName" placeholder="Ingresa tu apellido" required pattern="[a-zA-Z]{2,10}">
+          <div class="separator">
+            <label for="tagNameUser">Nombre de usuario</label>
+            <input id="tagNameUser" type="text" name="userName" class="loginFields" placeholder="Ingresa tu nombre de usuario" autofocus required pattern=[a-zA-Z0-9]{3,10} title="minimo 3 carácteres"></div>
+          <div class="separator">
+            <label for="nameUser">Nombre</label>
+            <input id="nameUser" type="text" name="name" class="loginFields" placeholder="Ingresa tu nombre" required pattern="[a-zA-Z]{2,10}"></div>
+          <div class="separator">
+            <label for="lastName">Apellido</label>
+            <input id="lastName" class="loginFields" type="text" name="lastName" placeholder="Ingresa tu apellido" required pattern="[a-zA-Z]{2,10}">
           </div>
-   				<div class="Separator">
+   				<div class="separator">
            <label for="email-user">Email</label>
-					 <input type="email" class="LoginFields" name="Email" id="email-user" placeholder="Ingresa tu email (ejemplo@correo.com)" required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Introduzca una dirección de correo válida, con letras mayúsculas,minúsculas y números con su respectivo @ y el dominio del correo"></div>
-					<div class="Separator">
+					 <input type="email" class="loginFields" name="email" id="email-user" placeholder="Ingresa tu email (ejemplo@correo.com)" required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Introduzca una dirección de correo válida, con letras mayúsculas,minúsculas y números con su respectivo @ y el dominio del correo"></div>
+					<div class="separator">
            <label for="password-user">Contraseña</label>
-					 <input type="password"  class="LoginFields" name="Password" id="password-user" placeholder="Ingresa tu contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Requiere mínimo, 8 carácteres, un número, una letra minúscula y otra mayúscula"></div>
-          <div class="Separator">
+					 <input type="password"  class="loginFields" name="password" id="password-user" placeholder="Ingresa tu contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Requiere mínimo, 8 carácteres, un número, una letra minúscula y otra mayúscula"></div>
+          <div class="separator">
             <label for="password-user-repeat" id="labelPassR">Contraseña - Repetir</label>
-            <input id="password-user-repeat" class="LoginFields" type="password" name="PasswordRept" placeholder="La contraseña debe coincidir" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            <input id="password-user-repeat" class="loginFields" type="password" name="passwordRept" placeholder="La contraseña debe coincidir" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
           </div>
           <!--Alert messages-->
           <div class="hidden alert alert-err" id="error">Las contraseñas parecen no coincidir!</div>
           <div class="hidden alert alert-success" id="succes">Registro exitoso!</div>
 					<!-- Two buttons join and clear -->
-          <div class="Buttons" id="Buttons"><input type="submit" class="button" id="Join" value="Registrar"><input type="button" class="button" id="Clear" value="Limpiar" title="debe coincidir con la contraseña que has ingresado"></div>
+          <div class="buttons" id="Buttons"><button type="submit" class="" id="join" disabled>Registrar</button><button type="button" class="button" id="clear">Limpiar</button></div>
 					<!-- End form -->
           
 				</form>
