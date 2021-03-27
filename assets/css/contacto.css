@@ -1,115 +1,52 @@
 .text {
-  margin-left: 500px;
-  margin-bottom: 0px;
+  text-align: center;
 }
 
-.text h1 {
-  margin-top: 10px;
-}
 
-label {
-  margin-right: 50px;
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .formulario {
-  margin-top: 0px;
-  align-items: center;
-  justify-content: center;
-  align-self: center;
-  background-color: #f2f2f2;
+  width: 500px;
 }
 
-#name {
-  color: #4481e2;
-  margin-right: 31px;
-  height: 200px;
+.item label{
+  margin-left: 15px;
 }
-
-#affair {
-  color: #4481e2;
-  margin-right: 63px;
+input[type=text],input[type=email], textarea {
+  width: 87%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: bofa-free-code-camprder-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 15px;
+  resize: vertical;
 }
-
-#message {
-  color: #4481e2;
-  color-margin-right: 51px;
+input[type=submit], input[type="reset"] {
+  cursor: pointer;
 }
-
-.email {
-  color: #4481e2;
-}
-
-input {
-  margin-bottom: 30px;
-  border: #4481e2 solid 5px;
-}
-
-.form {
-  margin-left: 500px;
-}
-
-textarea {
-  border: #4481e2 solid 5px;
-}
-
-@media only screen and (min-width: 600px) and (max-width: 883px) {
-  .text {
-    font-size: 15px;
-    margin-right: -100px;
-    margin-left: 20px;
-  }
-}
-#submit {
-  background-color: #f55446;
-  padding: 10px;
-  color: #efeded;
-  border-radius: 15px;
-}
-#submit:hover {
-  background-color: #4481e2;
-}
-
-#reset {
-  background-color: #f55446;
-  padding: 10px 10px;
-  color: #efeded;
-  margin-left: 10px;
-  margin-top: auto;
-  margin-bottom: -200px;
-  border-radius: 15px;
-}
-#reset:hover {
-  background-color: #4481e2;
-}
-
-#btn {
-  display: flex;
-  margin-top: 40px;
-  margin-left: 120px;
-}
-
-.p {
-  margin-bottom: 200px;
-}
-
-.btn-discord {
-  padding: 10px;
-  margin-top: 150px;
-  margin-bottom: 20px;
-  margin-left: 520px;
-  font-size: 20px;
-  color: #efeded;
-  background-color: #f55446;
-  border-radius: 15px;
-  width: 400px;
+.joinDiscord{
   text-align: center;
-}
-.btn-discord a {
-  text-decoration: none;
-  color: #efeded;
-}
-.btn-discord:hover {
-  background-color: #4481e2;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-/*# sourceMappingURL=contacto.css.map */
+.btn-discord{
+  text-decoration: none;
+  padding: 60px;
+  border-radius: 20px;
+  font-size: 20px
+}
+
+
+
+/* MediaScreens */
+
+@media screen and (max-width: 600px) {
+  /*code here*/
+  }
