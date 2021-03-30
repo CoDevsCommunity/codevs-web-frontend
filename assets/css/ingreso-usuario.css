@@ -2,7 +2,7 @@
     text-decoration: none;
 }
 
-.LoginUser {
+.loginUser {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +12,7 @@
     margin: auto;
 }
 /* Discord message */
-div a.JoinDiscord {
+div a.joinDiscord {
     margin: 15px 0 0 0;
     display: flex;
     height: 8em;
@@ -25,7 +25,7 @@ div a.JoinDiscord {
     transition: ease 300ms all ;
 }
 
-div a.JoinDiscord:hover {
+div a.joinDiscord:hover {
     transition: ease 300ms all ;
     background: var(--lightblue);
 }
@@ -36,14 +36,14 @@ form {
     width: inherit;
 }
 
-div.LoginUser .Separator { 
+div.loginUser .separator { 
     width: inherit;
     margin: 15px 0 0 0;
     display:flex;
     justify-content: space-between;
 }
 
-div.LoginUser input.LoginFields {
+div.loginUser input.loginFields {
     border: 0;
     background: var(--white);
     width: 40rem;
@@ -51,7 +51,7 @@ div.LoginUser input.LoginFields {
     height:46px;
 }
 
-div.LoginUser label {
+div.loginUser label {
     display: inline-block;
     margin: 16px 0;
 }
@@ -68,8 +68,8 @@ div a.PassForgot {
   width:40rem;  float: right;
 }
 
-/* Buttons (join and clear) */
-div.Buttons {
+/* buttons (join and clear) */
+div.buttons {
     display: flex;
     width: 60%;
     justify-content: space-around;
@@ -84,11 +84,11 @@ div.Buttons {
 }
 /* MediaScreens */
 @media screen and (max-width: 600px) {
-    .LoginUser {
+    .loginUser {
         width: 29em;
     }
     
-    div.LoginUser input.LoginFields {
+    div.loginUser input.loginFields {
         width: 18em !important;
     }
 
