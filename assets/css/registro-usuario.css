@@ -16,7 +16,7 @@
 }
 
 .alert-err {
-    background:#af0000;
+    background:rgb(255,0,0,0.6);
 }
 
 .alert-success {
