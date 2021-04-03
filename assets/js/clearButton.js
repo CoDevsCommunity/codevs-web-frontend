@@ -2,9 +2,9 @@
  * this function clean the inputs fields if the user press "clean" button
  * @param {foo var} e - Used to prevent the default action
  */
-    let ButtonClear = document.querySelector('#clear'); 
+    ButtonClear = document.querySelector('#clear'); 
 
-    let form = document.getElementsByName('userForm')[0];
+    form = document.getElementsByName('userForm')[0];
 
 function clear(e) {	
 	 e.preventDefault();

@@ -79,23 +79,23 @@
 					<!--separators,labels and inputs -->
           <div class="separator">
             <label for="tagNameUser">Nombre de usuario</label>
-            <input id="tagNameUser" type="text" name="userName" class="loginFields" placeholder="Ingresa tu nombre de usuario" autofocus required pattern=[a-zA-Z0-9]{3,10} title="minimo 3 carácteres"></div>
+            <input id="tagNameUser" type="text" name="userName" class="loginFields" placeholder="Ingresa tu nombre de usuario" autofocus required pattern=[a-zA-Z0-9]{3,10} title="minimo 3 carácteres" autocomplete="username"></div>
           <div class="separator">
             <label for="nameUser">Nombre</label>
-            <input id="nameUser" type="text" name="name" class="loginFields" placeholder="Ingresa tu nombre" required pattern="[a-zA-Z]{2,10}"></div>
+            <input id="nameUser" type="text" name="name" class="loginFields" placeholder="Ingresa tu nombre" required pattern="[a-zA-Z]{2,10}" autocomplete="name"></div>
           <div class="separator">
             <label for="lastName">Apellido</label>
-            <input id="lastName" class="loginFields" type="text" name="lastName" placeholder="Ingresa tu apellido" required pattern="[a-zA-Z]{2,10}">
+            <input id="lastName" class="loginFields" type="text" name="lastName" placeholder="Ingresa tu apellido" required pattern="[a-zA-Z]{2,10}" autocomplete="last">
           </div>
    				<div class="separator">
            <label for="email-user">Email</label>
-					 <input type="email" class="loginFields" name="email" id="email-user" placeholder="Ingresa tu email (ejemplo@correo.com)" required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Introduzca una dirección de correo válida, con letras mayúsculas,minúsculas y números con su respectivo @ y el dominio del correo"></div>
+					 <input type="email" class="loginFields" name="email" id="email-user" placeholder="Ingresa tu email (ejemplo@correo.com)" required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Introduzca una dirección de correo válida, con letras mayúsculas,minúsculas y números con su respectivo @ y el dominio del correo" autocomplete="email"></div>
 					<div class="separator">
            <label for="password-user">Contraseña</label>
-					 <input type="password"  class="loginFields" name="password" id="password-user" placeholder="Ingresa tu contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Requiere mínimo, 8 carácteres, un número, una letra minúscula y otra mayúscula"></div>
+					 <input type="password"  class="loginFields" name="password" id="password-user" placeholder="Ingresa tu contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Requiere mínimo, 8 carácteres, un número, una letra minúscula y otra mayúscula" autocomplete="password"></div>
           <div class="separator">
             <label for="password-user-repeat" id="labelPassR">Contraseña - Repetir</label>
-            <input id="password-user-repeat" class="loginFields" type="password" name="passwordRept" placeholder="La contraseña debe coincidir" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            <input id="password-user-repeat" class="loginFields" type="password" name="passwordRept" placeholder="La contraseña debe coincidir" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" autocomplete="password">
           </div>
           <!--Alert messages-->
           <div class="hidden alert alert-err" id="error">Las contraseñas parecen no coincidir!</div>
