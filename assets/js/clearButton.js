@@ -5,7 +5,6 @@
     buttonClear = document.querySelector('#clear'); 
 
     form = document.getElementsByName('userForm')[0];
-    form.reset();
 
 function clear(e) {	
 	 e.preventDefault();
