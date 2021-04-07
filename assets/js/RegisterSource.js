@@ -31,10 +31,15 @@ document.querySelectorAll('input[type=password]').forEach((input,index) => input
     Password1 = document.getElementById('password-user').value;
     Password2 = document.getElementById('password-user-repeat').value;
 
-    if(Password1!= Password2){
+    if(Password1 != Password2){
         document.getElementById('error').classList.add('displayed');
+        joinButton.classList.remove('button');
+        joinButton.setAttribute('disabled','');
+
     }
     else{
         document.getElementById('error').classList.remove('displayed');
+        joinButton.classList.add('button');  
+        joinButton.removeAttribute('disabled');
     }
 }))
