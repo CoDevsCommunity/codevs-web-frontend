@@ -44,9 +44,19 @@ input[type=submit], input[type="reset"] {
 }
 
 
-
 /* MediaScreens */
 
-@media screen and (max-width: 600px) {
-  /*code here*/
+@media screen and (max-width: 470px) {
+  .btn-discord{
+    font-size: 15px;
+    padding: 25px 30px
+  }
+  }
+
+  @media screen and (max-width: 330px){
+    .btn-discord{
+      font-size: 10px;
+      padding: 20px 25px;
+    }
+
   }
