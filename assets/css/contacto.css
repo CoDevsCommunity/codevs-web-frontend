@@ -1,0 +1,62 @@
+.text {
+  text-align: center;
+}
+
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  width: 500px;
+}
+
+.item label{
+  margin-left: 15px;
+}
+input[type=text],input[type=email], textarea {
+  width: 87%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: bofa-free-code-camprder-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 15px;
+  resize: vertical;
+}
+input[type=submit], input[type="reset"] {
+  cursor: pointer;
+}
+.joinDiscord{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.btn-discord{
+  text-decoration: none;
+  padding: 60px;
+  border-radius: 20px;
+  font-size: 20px
+}
+
+
+/* MediaScreens */
+
+@media screen and (max-width: 470px) {
+  .btn-discord{
+    font-size: 15px;
+    padding: 25px 30px
+  }
+  }
+
+  @media screen and (max-width: 330px){
+    .btn-discord{
+      font-size: 10px;
+      padding: 20px 25px;
+    }
+
+  }

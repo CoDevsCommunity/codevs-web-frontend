@@ -1,0 +1,42 @@
+.separator {
+   font-size:1.2rem; 
+}
+
+.alert {
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:12em;
+    height:3em;
+    margin:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.alert-err {
+    background:rgb(255,0,0,0.6);
+}
+
+.alert-success {
+    background:#00af00;
+}
+
+.hidden {
+    display:none;
+}
+
+.displayed {
+    display:block;
+}
+
+[disabled] {
+    color: var(--white);
+    border-radius: 15px;
+    padding: 10px 25px;
+    text-decoration: none;
+    background:var(--grey); 
+    margin:16px;
+    border:none;
+}
