@@ -128,15 +128,11 @@
       <article class="about">
         <div class="item-container">
           <img src="assets/img/about.png" alt="about" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor est,
-            tempore illo harum, pariatur aliquid perspiciatis minima quae rem
-            quia repellat! Id libero quis soluta magnam porro velit
-            necessitatibus at! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Dolor est, tempore illo harum Lorem ipsum dolor
-            sit amet, consectetur adipisicing elit. Dolor est, tempore illo
-            harum
-          </p>
+           <div>
+            <p>Si estamos juntos, podemos aprender muchas cosas, compartir conocimientos y ser más productivos. Aprender llevará tiempo, pero siempre se puede mejorar si aprendemos juntos. Es difícil romper el ciclo de estrés que le impide hacer lo que quiere lograr.</p>
+          
+          <p>Creo que hay muchas personas que probablente estén buscando unirse y trabajar en equipo y deberían poder hacerlo, porque esto es algo importante, <b>absolutamente.</b> Cuantas más personas conozcas y más oportunidades tengas, mejores son tus posibilidades de éxito.</p>
+          </div>
         </div>
       </article>
       <article class="tutorials">
@@ -188,23 +184,14 @@
     <script type="text/javascript">
       //Get the button
       var mybutton = document.getElementById("myBtn");
-
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction();
-      };
-
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-        ) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-    </script>
-  </body>
+      
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+	</script>
+</body>
 </html>
-
