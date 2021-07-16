@@ -62,6 +62,7 @@ div a.passForgot {
     display: flex;
     justify-content: start;
     margin-top: 10px;
+    padding-left: 155px;
 }
 
 .ContentPass {
@@ -95,4 +96,7 @@ div.buttons {
     .ContentPass {
         width: 18em;
     }
+    
+    div a.passForgot {
+        padding-left: 125px;
 }

@@ -76,14 +76,23 @@
 				<!-- form user(email and password) -->
 				<form name="userForm" id="userForm">
 					<!-- Two separators,labels and inputs -->
-					<div class="separator"><label for="email-user">Email</label>
-					<input type="email" class="loginFields" name="userForm" id="email-user" placeholder="Ingresa tu email (ejemplo@correo.com)" autofocus required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Introduzca una dirección de correo válida, con letras mayúsculas,minúsculas y números con su respectivo @ y el dominio del correo"></div>
-					<div class="separator"><label for="password-user">Contraseña</label>
-					<input type="password"  class="loginFields" name="userForm" id="password-user" placeholder="Ingresa tu contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Requiere mínimo, 8 carácteres, un número, una letra minúscula y otra mayúscula"></div>
+					<div class="separator">
+            <label for="email-user">Email</label>
+					<input type="email" class="loginFields" name="userForm" id="email-user" placeholder="Ingresa tu email (ejemplo@correo.com)" autofocus required pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" title="Introduzca una dirección de correo válida, con letras mayúsculas,minúsculas y números con su respectivo @ y el dominio del correo">
+          </div>
+					<div class="separator">
+            <label for="password-user">Contraseña</label>
+					<input type="password"  class="loginFields" name="userForm" id="password-user" placeholder="Ingresa tu contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Requiere mínimo, 8 carácteres, un número, una letra minúscula y otra mayúscula">
+          </div>
 					<!-- a element for pass forgot -->
-				<div class="contentPass"><a href="#" class="passForgot">¿Haz olvidado tu contraseña?</a></div>
+				<div class="contentPass">
+          <a href="#" class="passForgot">¿Haz olvidado tu contraseña?</a>
+        </div>
 					<!-- Two buttons join and clear -->
-          <div class="buttons" id="buttons"><input type="button" class="button" id="Join" value="Entrar"><input type="button" class="button" id="clear" value="Limpiar"></div>
+          <div class="buttons" id="buttons">
+            <input type="button" class="button" id="Join" value="Entrar">
+            <input type="button" class="button" id="clear" value="Limpiar">
+          </div>
 					<!-- End form -->
 				</form>
 			</div>
