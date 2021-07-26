@@ -49,6 +49,7 @@ div.loginUser input.loginFields {
     width: 40rem;
     /* 300px */
     height:46px;
+    padding-left: 5px;
 }
 
 div.loginUser label {
@@ -56,12 +57,13 @@ div.loginUser label {
     margin: 16px 0;
 }
 /* Link for PassForgot */
-div a.PassForgot {
+div a.passForgot {
     font-size: 12px;
     color: var(--lightblue);
     display: flex;
     justify-content: start;
     margin-top: 10px;
+    padding-left: 155px;
 }
 
 .ContentPass {
@@ -95,4 +97,7 @@ div.buttons {
     .ContentPass {
         width: 18em;
     }
+    
+    div a.passForgot {
+        padding-left: 125px;
 }
